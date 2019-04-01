@@ -1,3 +1,6 @@
+-- Soma os quadrados de dois numeros.
+-- sumSquares x y = undefined
+
 sumSquares :: Int -> Int -> Int
 sumSquares x y = (square x) + (square y)
 
