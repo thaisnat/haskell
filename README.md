@@ -1,2 +1,2 @@
-# haskell
-Programação Funcional com a linguagem haskell
+# Programação Funcional
+Exercicios em linguagem haskell 
