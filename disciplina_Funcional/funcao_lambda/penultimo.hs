@@ -1,3 +1,5 @@
-data List a = Nil
+data List a = Nil | Cons (List a)
 
-penultimo (Cons x xs) = if (Nil = 0) then error "Lista sem penultimo" else if (Nil = 1) then error "Lista sem penultimo" else last (init xs)
+penultimo Nil = error "Lista sem penultimo"
+penultimo last = error "Lista sem penultimo"
+penultimo (Cons xs) = last (init xs)
